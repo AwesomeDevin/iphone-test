@@ -1,0 +1,421 @@
+*{margin: 0;padding: 0;}
+#box{width: 100%;height: 1rem;overflow: hidden;cursor: pointer;}
+header{height: 1rem;padding-bottom: 3px;position: relative;overflow: hidden;}
+header #box  ul{height: 1rem;width: 9.6rem;position: absolute;left: 0;top: 0;}
+header #box ul li a img{width:3.2rem;}
+header #box ul li{width: 3.2rem;height: 1rem;float: left;list-style: none;}
+header #box ul li a{display: block;width: 3.2rem;height: 1rem;}
+header .mark{width: 100%;height: 0.03rem;background:rgba(51,51,51,0.5);}
+header .mark li.now{background:#009688;}
+header .mark li{width: 33.3%;height: 0.03rem;float: left;list-style: none;}
+
+section{overflow: hidden;width: 100%;}
+section .search{width: 2.9rem;height: 0.3rem;margin: 0.1rem 0.15rem;
+	background: #dddddd ;
+	border-radius: 5px;
+	
+	display: flex;flex-direction: row;align-items: center;
+	}
+section .search input{
+	width: 2.6rem;height: 0.3rem;
+	float: left;border:0;background: #dddddd;
+	font-family: "黑体";
+	font-size: 0.13rem;
+	margin-left: 0.3rem;
+	text-indent: 0.3rem;
+	border-radius: 5px;
+	outline: none;
+}
+section .search input::-webkit-input-placeholder{
+color: #1ba9ba;
+font-weight: bold;
+text-indent: 0.8rem;
+}
+section .search:before {content:'';width: 0.13rem;height: 0.13rem;background:url(../img/search_where.jpg) no-repeat;display: block;background-size: 0.13rem;margin-left: 3%;}
+
+section ul li{width: 100%;height: 0.56rem;list-style: none;display: flex;flex-direction: row;justify-content: space-around;}
+section ul li.big{height: 1.12rem;}
+section ul li a{color: red;text-align:center;float: left;border-right: 0;border-top: 0;position: relative;display: block;}
+section ul li a span{font-size: 0.12rem;color: white;position: absolute;font-family: "黑体";left: 50%;transform: translateX(-50%);width: 0.72rem;}
+section ul li a i{width: 0.27rem;height: 0.27rem;display: block;}
+
+a{cursor:pointer;-webkit-appearance: none;-webkit-tap-highlight-color: rgba(0,0,0,0);}
+section ul li:nth-child(1) a:nth-child(1) {
+	display: block;
+	width:0.75rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #ff5555; 
+	
+	}
+section ul li:nth-child(1) a:nth-child(1) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -2.08rem 0;
+	background-size:8.95rem 0.35rem;
+	margin:0.02rem auto;
+}
+
+
+
+
+
+section ul li:nth-child(1) a:nth-child(2) {
+	display: block;
+	width:0.75rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #ff5555; 
+	}
+
+section ul li:nth-child(1) a:nth-child(2) i{
+	background: url(../img/zdf_icon1.png) no-repeat 0 0;
+	background-size:0.26rem 0.26rem;
+	margin:0.02rem auto;
+}
+
+
+
+
+
+section ul li:nth-child(1) a:nth-child(3) {
+	display: block;
+	width:0.75rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background:#7e57c2; 
+	}	
+section ul li:nth-child(1) a:nth-child(3) i{
+	background: url(../img/jiesongji1.png) no-repeat 0 0;
+	background-size:0.26rem 0.26rem;
+	margin:0.02rem auto;
+}
+
+
+
+
+
+
+section ul li:nth-child(1) a:nth-child(4) {
+	display: block;
+	width:0.75rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background:#7e57c2; 
+	}	
+section ul li:nth-child(1) a:nth-child(4) i{
+	background: url(../img/flight.png) no-repeat 0 0;
+	background-size:0.26rem 0.26rem;
+	margin:0.02rem auto;
+}
+
+
+
+
+/*.swiper-pagination-bullet-active{background: ;}*/
+
+a:visited{}
+
+
+/*第二行*/
+section ul li:nth-child(2) a:nth-child(1) {
+	display: block;
+	width:1.54rem;
+	height: 1.12rem;
+	padding: 0.02rem 0rem;
+	background: #ff5555; 
+	
+	}
+section ul li:nth-child(2) a:nth-child(1) i{
+	background: url(../img/hotel_icon4.png) no-repeat 0 0;
+	background-size:0.41rem 0.56rem;
+	
+}
+
+
+section ul li:nth-child(2) a:nth-child(2) {
+	display: block;
+	width:1.54rem;
+	height: 1.12rem;
+	padding: 0.02rem 0rem;
+	background: #7e57c2; 
+	}
+section ul li:nth-child(2) a:nth-child(2) i{
+	background: url(../img/flight_icon3.png) no-repeat 0 0;
+	background-size:0.56rem 0.57rem;
+	
+}
+
+
+
+/*第三行*/
+section ul li:nth-child(3) a:nth-child(1) {
+	display: block;
+	width:1.54rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #ff5555; 
+	}
+section ul li:nth-child(3) a:nth-child(1) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -1.59rem 0;
+	background-size:8.95rem 0.35rem;
+	position: absolute;
+	left:15%;
+	top: 20%;
+}
+
+section ul li:nth-child(3) a:nth-child(2) {
+	display: block;
+	width:1.54rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #1489e6; 
+	}
+section ul li:nth-child(3) a:nth-child(2) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -7.3rem 0;
+	background-size:8.95rem 0.35rem;
+	position: absolute;
+	left:15%;
+	top: 20%;
+}	
+
+
+
+/*第四行*/
+section ul li:nth-child(4) a:nth-child(1) {
+	display: block;
+	width:1.54rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #ff9800; 
+	}
+section ul li:nth-child(4) a:nth-child(1) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -3.69rem 0;
+	background-size:8.95rem 0.35rem;
+	position: absolute;
+	left:15%;
+	top: 20%;
+}	
+
+
+
+section ul li:nth-child(4) a:nth-child(2) {
+	display: block;
+	width:1.54rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #1489e6; 
+	}
+section ul li:nth-child(4) a:nth-child(2) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -2.61rem 0;
+	background-size:8.95rem 0.35rem;
+	position: absolute;
+	left:15%;
+	top: 20%;
+}	
+
+
+
+/*第五行*/
+section ul li:nth-child(5) a:nth-child(1) {
+	display: block;
+	width:1.54rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #ff9800; 
+	}
+section ul li:nth-child(5) a:nth-child(1) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -4.74rem 0;
+	background-size:8.95rem 0.35rem;
+	position: absolute;
+	left:15%;
+	top: 20%;
+}
+
+
+
+section ul li:nth-child(5) a:nth-child(2) {
+	display: block;
+	width:1.54rem;
+	height: 0.46rem;
+	padding:0.02rem 0rem;
+	background: #009688; 
+	}
+section ul li:nth-child(5) a:nth-child(2) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -3.16rem 0;
+	background-size:8.95rem 0.35rem;
+	position: absolute;
+	left:15%;
+	top: 20%;
+}
+
+
+
+/*第六行*/
+section ul li:nth-child(6) a:nth-child(1) {
+	display: block;
+	width:0.75rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #ff9800; 
+	}
+section ul li:nth-child(6) a:nth-child(1) i{
+	background: url(../img/icon_yiriyou.png) no-repeat 0 0;
+	background-size:0.305rem 0.31rem;
+	margin: 0.02rem auto;
+	
+}
+
+
+
+
+section ul li:nth-child(6) a:nth-child(2) {
+	display: block;
+	width:0.75rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background:  #ff9800; 
+	}
+	
+section ul li:nth-child(6) a:nth-child(2) i{
+	background: url(../img/icon_1yuan.png) no-repeat 0 0;
+	background-size:0.33rem 0.33rem;
+	margin: 0.02rem auto;
+	
+}
+
+
+
+
+
+section ul li:nth-child(6) a:nth-child(3) {
+	display: block;
+	width:1.54rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #009688; 
+	}
+section ul li:nth-child(6) a:nth-child(3) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -5.27rem 0;
+	background-size:8.96rem 0.35rem;
+	position: absolute;
+	left:15%;
+	top: 20%;
+	width: 0.25rem;
+	height: 0.3rem;
+}
+
+
+
+/*第七行*/
+section ul li:nth-child(7) a:nth-child(1) {
+	display: block;
+	width:1.54rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background:#7eb63d; 
+	}
+section ul li:nth-child(7) a:nth-child(1) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -6.3rem 0;
+	background-size:8.95rem 0.35rem;
+	position: absolute;
+	left:15%;
+	top: 20%;
+}	
+
+
+
+
+
+
+section ul li:nth-child(7) a:nth-child(2) {
+	display: block;
+	width:1.54rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #009688; 
+	}
+section ul li:nth-child(7) a:nth-child(2) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -0.54rem 0;
+	background-size:8.95rem 0.35rem;
+	position: absolute;
+	left:15%;
+	top: 20%;
+}
+
+
+
+
+/*第八行*/
+section ul li:nth-child(8) a:nth-child(1) {
+	display: block;
+	width:1.54rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #ff9800; 
+	}
+
+
+
+
+section ul li:nth-child(8) a:nth-child(1) i{
+	background: url(../img/qiche.png) no-repeat 0 0;
+	background-size:0.27rem 0.28rem;
+	position: absolute;
+	left:15%;
+	top: 20%;
+}
+
+
+
+
+
+section ul li:nth-child(8) a:nth-child(2) {
+	display: block;
+	width:0.75rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background:  #1ba9ba; 
+	}
+section ul li:nth-child(8) a:nth-child(2) i{
+	background: url(../img/daoyouwf.png) no-repeat 0 0;
+	background-size:100%;
+	margin:0.02rem auto;
+}
+
+
+
+
+section ul li:nth-child(8) a:nth-child(3) {
+	display: block;
+	width:0.75rem;
+	height: 0.46rem;
+	padding: 0.02rem 0rem;
+	background: #1ba9ba; 
+	}
+section ul li:nth-child(8) a:nth-child(3) i{
+	background: url(../img/hotel_index_icon3.png) no-repeat -8.8rem 0;
+	width: 0.16rem;
+	height: 0.24rem;
+	background-size:8.96rem 0.35rem;
+	margin:0.02rem auto;
+}
+
+
+
+footer ul{height: 0.46rem;width: 100%;border-bottom: 1px solid #C5C5C5;}
+footer ul li a{font-size: 12px;text-decoration: none;color: #666;display: block;}
+footer ul li {float: left;width: 33.3%;list-style: none;text-align: center;}
+footer ul li a p:before{content: '';width:0.2rem ;height: 0.2rem;display: block;}
+footer ul li:nth-child(1) a p:before{background: url(../img/toolbar.png) no-repeat 0 0;background-size:1.45rem 0.2rem;margin: 0 auto;margin-bottom: 0.02rem;}
+footer ul li:nth-child(2) a p:before{background: url(../img/toolbar.png) no-repeat -0.525rem 0;background-size:1.45rem 0.2rem;margin: 0 auto;margin-bottom: 0.02rem;}
+footer ul li:nth-child(3) a p:before{background: url(../img/toolbar.png) no-repeat -1rem 0;background-size:1.45rem 0.2rem;margin: 0 auto;margin-bottom: 0.02rem;}
+
+
+footer .floor2 {width: 100%;height: 0.44rem;font-size: 0.18rem;border-bottom: 1px solid #C5C5C5;line-height: 0.44rem;text-align: center;color: #009688;}
+footer .floor2 span{float: right;margin-right: 0.2rem;font-size: 0.26rem;color: #C5C5C5;}
+
+footer .floor3{width: 100%;height: 0.44rem;font-size: 0.13rem;line-height: 0.44rem;font-family: '黑体';}
+footer .floor3 span{float: left;margin-left: 0.15rem;color: #C5C5C5;}
+footer .floor3 a{text-decoration: none;color: #666666;}
+
+.swiper-pagination{height:0.03rem;background:rgba(51,51,51,0.5);position: absolute;left: 0;bottom: 0;width: 100%; }
+.swiper-pagination span{float: left;width: 33.3%;height: 0.03rem;border-radius: 0}

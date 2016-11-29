@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+	<link rel="stylesheet" type="text/css" href="css/huishoubao.css">
+	<link rel="SHORICUT ICON" type="text/css" href="img/ff.ico">
+	<title>回收宝-导航</title>
+</head>
+<body>
+	<div id="header">
+		<div class="box">
+			<p class="left">手机</p>
+			<p class="right">平板</p>
+		</div>
+		<img src="img/research.png" />
+		
+		<div id="search">
+			<input type="search" placeholder="请输入关键字" />
+		</div>
+		<p style="font-size: 0.13rem;margin-left: 0.1rem;display: none;" class="cancel">取消</p>
+	</div>
+	<div id="content">
+		<div class="leftbox">
+			<ul id="aside">
+				<li data-mid="1" class="li-active"><a href="javascript:;">苹果</a></li>
+				<li data-mid="1"><a href="javascript:;">HTC</a></li>
+				<li data-mid="2"><a href="javascript:;">OPPO</a></li>
+				<li data-mid="3"><a href="javascript:;">vivo</a></li>
+				<li data-mid="4"><a href="javascript:;">华为</a></li>
+				<li data-mid="5"><a href="javascript:;">酷派</a></li>
+				<li data-mid="6"><a href="javascript:;">联想</a></li>
+				<li data-mid="7"><a href="javascript:;">魅族</a></li>
+				<li data-mid="8"><a href="javascript:;">摩托罗拉</a></li>
+				<li data-mid="9"><a href="javascript:;">诺基亚</a></li>
+				<li data-mid="10"><a href="javascript:;">三星</a></li>
+				<li data-mid="11"><a href="javascript:;">小米</a></li>
+				<li data-mid="12"><a href="javascript:;">索尼</a></li>
+				<li data-mid="13"><a href="javascript:;">中兴</a></li>
+				<li data-mid="14"><a href="javascript:;">金立</a></li>
+				<li data-mid="15"><a href="javascript:;">乐视</a></li>
+				<li data-mid="16"><a href="javascript:;">美图</a></li>
+				<li data-mid="17"><a href="javascript:;">360</a></li>
+				<li data-mid="18"><a href="javascript:;">努比亚</a></li>
+				<li data-mid="19"><a href="javascript:;">锤子</a></li>
+			</ul>
+			
+		</div>
+		<div id="rightbox">
+			<div class="scroll">
+				<ul class="product">
+					<!-- <li  >
+					<a href="javascript:;"><span>1</span><p>iPhone7 Plus</p></a>
+					</li> -->
+					
+				</ul>
+
+				<div class="lazy_img  ">
+						<span></span>
+						<span></span>
+						<span></span>
+				</div>
+				<p class='bottom f-dn'>O(∩_∩)O~已经看到最后了哦</p>
+			</div>	
+			
+		</div>
+		
+	</div>
+	
+	<div style="display: none;" id="content1">
+		<h4 class="h_one">历史记录<span class="delete">清除</span></h4>
+			<ul class="ul-1">
+				<!--<li class="li1"></li>
+				<li class="li2"></li>
+				<li class="li3"></li>
+				<li class="li4"></li>-->
+			</ul>
+		
+		<h4 class="h_two">热门搜索</h4>
+			<ul>
+				<li class="li1">iPhone 5</li>
+				<li class="li2">荣耀6</li>
+				<li class="li3">荣耀4X</li>
+				<li class="li4">小米手机3</li>
+
+			</ul>
+
+	</div>
+
+
+	<script type="text/javascript" src="js/zepto.js"></script>
+	<script type="text/javascript" src="js/iscroll.js"></script>
+	<!-- <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script> -->
+	<script type="text/javascript" src="js/huishoubao_demo.js"></script>
+
+	<script>
+        function resize() {
+            var clientWidth = document.documentElement.clientWidth;
+            document.documentElement.style.fontSize = 100 * (clientWidth / 320) + 'px';
+        }
+        resize();
+        window.addEventListener('resize', resize);
+    </script>
+</body>
+</html>
